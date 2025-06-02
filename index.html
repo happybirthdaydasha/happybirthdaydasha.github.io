@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С ДНЁМ РОЖДЕНИЯ, Даша!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="js/soundfont-player.min.js"></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/videos/background-video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+    
+    <div class="container">
+        <div class="piano-container">
+            <h1 class="piano-title">С Днём Рождения!</h1>
+            <div class="piano">
+                <div class="keys">
+                    <!-- 2 oitavas de teclas do piano -->
+                    <div class="key white" data-note="60"></div>
+                    <div class="key black" data-note="61"></div>
+                    <div class="key white" data-note="62"></div>
+                    <div class="key black" data-note="63"></div>
+                    <div class="key white" data-note="64"></div>
+                    <div class="key white" data-note="65"></div>
+                    <div class="key black" data-note="66"></div>
+                    <div class="key white" data-note="67"></div>
+                    <div class="key black" data-note="68"></div>
+                    <div class="key white" data-note="69"></div>
+                    <div class="key black" data-note="70"></div>
+                    <div class="key white" data-note="71"></div>
+                    <div class="key white" data-note="72"></div>
+                    <div class="key black" data-note="73"></div>
+                    <div class="key white" data-note="74"></div>
+                    <div class="key black" data-note="75"></div>
+                    <div class="key white" data-note="76"></div>
+                    <div class="key white" data-note="77"></div>
+                    <div class="key black" data-note="78"></div>
+                    <div class="key white" data-note="79"></div>
+                    <div class="key black" data-note="80"></div>
+                    <div class="key white" data-note="81"></div>
+                    <div class="key black" data-note="82"></div>
+                    <div class="key white" data-note="83"></div>
+                </div>
+            </div>
+            <button id="play-btn" class="play-button">НАЧАТЬ</button>
+        </div>
+        
+        <div id="letter" class="letter hidden">
+            <p>Даша, в этот особенный день поздравляют не только тебя с днем рождения, но и ту музыку, которая является неотъемлемой частью твоей жизни и меняет мир вокруг тебя. Музыка обладает силой объединять, вдохновлять и глубоко трогать душу, придавая краски и смысл даже самым простым моментам.</p>
+            
+            <p>Пусть твоя любовь к музыке продолжает освещать твой путь, принося радость, гармонию и бесконечные возможности. Пусть каждая новая композиция, созданная тобой, каждая сыгранная нота и каждый урок становятся настоящим праздником уникальной красоты, которую дарит музыка.</p>
+            
+            <p>С днем рождения!</p>
+        </div>
+    </div>
+</body>
+</html>
